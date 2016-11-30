@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="{{url_for('static', filename='css/bootstrap.min.css/')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename='css/main.css/')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename='css/leaflet.css/')}}" rel="stylesheet" />
+    <script src="{{url_for('static', filename='js/vendor/angular.min.js/')}}"></script>
+    <script src="{{url_for('static', filename='js/vendor/leaflet.js/')}}"></script>
+		<script src="{{url_for('static', filename='js/vendor/angular-leaflet-directive.min.js/')}}"></script>
+    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+
+  </head>
+  <body ng-app="NearMeApp">
+    
+    <div class="header">
+      <div class="container-fluid">
+        <h1 class="pull-left">NearMe</h1>
+        <a class="pull-right" href="#/about">About</a>
+      </div>
+    </div>
+
+<div ng-view>
+    </div>
+
+    <!-- Modules -->
+    <script src="{{url_for('static', filename='js/app.js')}}"></script>
+    <!-- Controllers -->
+		<script src="{{url_for('static', filename='js/controllers/MainController.js')}}"></script>
+    <script src="{{url_for('static', filename='js/controllers/AboutController.js')}}"></script>
+    <!-- Directives -->
+    
+
+    <!-- Services -->
+    <script src="{{url_for('static', filename='js/services/places.js')}}"></script>
+    <!-- helpers -->
+    <script src="{{url_for('static', filename='js/vendor/helpers.js')}}"></script>
+    
+  </body>
+</html>

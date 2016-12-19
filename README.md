@@ -7,12 +7,12 @@
 * flask
 * command line
 
-# how do i get it running?
+# How do i get it running?
 * Either set up your server or: python run.py in the directory
 
-# what is being utilized?
-*HTML5
-*CSS3
+# What is being utilized?
+* HTML5
+* CSS3
 * Python
   * Flask
 * Javascript

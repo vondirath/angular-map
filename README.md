@@ -14,10 +14,10 @@
 *HTML5
 *CSS3
 * Python
-** Flask
+  * Flask
 * Javascript
-** Angular.js 1.x
-** leaflet
+  * Angular.js 1.x
+  * leaflet
 * Wikipedia API
 
 # What is the purpose?
@@ -28,10 +28,10 @@ angular projects over a large app if need be.
 
 # Where can i find more?
 * http://flask.pocoo.org/
-** flask
+  * flask
 * http://leafletjs.com/
-** leaflet
+  * leaflet
 * https://angularjs.org/
-** angular 1.x
+  * angular 1.x
 * https://www.python.org/
-** python
+  * python
